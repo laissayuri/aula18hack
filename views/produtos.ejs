@@ -8,7 +8,9 @@
         <h2> Produtos </h2>
         <div class="container">
                 <% for(let produto of produtos){ %>
-                    <p><%= produto.produto %></p>
+                    <img src="/assets/<%= produto.imagem %>" alt="">
+                    <h3><%= produto.produto %></h3>
+                    <h3>Quantidade: <%= produto.quantidade %></h3>
                 <% } %>
         </div>
      </section>

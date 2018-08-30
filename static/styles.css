@@ -55,3 +55,22 @@ footer{
 .home .banner img{
     width: 100%;
 }
+
+.contato h2, .produtos h2, .cadastro h2{ 
+    padding: 0 30px;
+    color: #fff;
+    font-size: 30pt;
+    text-shadow: #000 1px 1px 10px;
+    width: 35%;
+    max-width: 100%;
+    line-height: 1.5;
+    z-index: 1;
+}
+
+.produtos img{
+    padding: 30px;
+}
+
+.contato h3, .produtos h3, .cadastro h3{
+    padding: 0px 30px;
+}
