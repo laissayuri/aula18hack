@@ -4,8 +4,13 @@
 <body>
      <%-include("shared/header")%>
 
-     <section class="home">
+     <section class="produtos">
         <h2> Produtos </h2>
+        <div class="container">
+                <% for(let produto of produtos){ %>
+                    <p><%= produto.produto %></p>
+                <% } %>
+        </div>
      </section>
 
      <%-include("shared/footer")%>
